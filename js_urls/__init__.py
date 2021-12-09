@@ -8,6 +8,3 @@ __version__ = '0.1.2.dev0'
 # 5. bump the version (increment the version and append a ".dev" to it). eg. "0.1.2.dev"
 # 6. create a new commit (eg. "Bumped version to 0.1.2.dev")
 # 7. run "git push" and "git push --tags"
-
-
-default_app_config = 'js_urls.apps.JSUrlsAppConfig'

@@ -31,7 +31,7 @@ Javascript fashion.
 Main requirements
 =================
 
-Python 3.4+, Django 1.11+.
+Python 3.8+, Django 3.2+.
 
 Installation
 ============

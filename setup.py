@@ -11,7 +11,7 @@ import js_urls
 
 
 def read_relative_file(filename):
-    """ Returns contents of the given file, whose path is supposed relative to this module. """
+    """Returns contents of the given file, whose path is supposed relative to this module."""
     with codecs.open(join(dirname(abspath(__file__)), filename), encoding='utf-8') as f:
         return f.read()
 
@@ -30,7 +30,7 @@ setup(
     keywords='django javascript js url urls helper',
     zip_safe=False,
     install_requires=[
-        'django>=1.11',
+        'django>=3.2',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -41,9 +41,8 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ],
 )
