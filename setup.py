@@ -17,7 +17,7 @@ def read_relative_file(filename):
 
 
 setup(
-    name='django-js-urls',
+    name='django4-js-urls',
     version=js_urls.__version__,
     author='impak Finance',
     author_email='tech@impakfinance.com',

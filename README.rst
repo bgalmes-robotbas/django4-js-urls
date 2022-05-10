@@ -1,26 +1,26 @@
-django-js-urls
-##############
+django4-js-urls
+###############
 
-.. image:: https://img.shields.io/pypi/l/django-js-urls.svg
-    :target: https://pypi.python.org/pypi/django-js-urls/
+.. image:: https://img.shields.io/pypi/l/django4-js-urls.svg
+    :target: https://pypi.python.org/pypi/django4-js-urls/
     :alt: License
 
-.. image:: https://img.shields.io/pypi/pyversions/django-js-urls.svg
-    :target: https://pypi.python.org/pypi/django-js-urls
+.. image:: https://img.shields.io/pypi/pyversions/django4-js-urls.svg
+    :target: https://pypi.python.org/pypi/django4-js-urls
 
-.. image:: https://img.shields.io/pypi/v/django-js-urls.svg
-    :target: https://pypi.python.org/pypi/django-js-urls/
+.. image:: https://img.shields.io/pypi/v/django4-js-urls.svg
+    :target: https://pypi.python.org/pypi/django4-js-urls/
     :alt: Latest Version
 
-.. image:: https://travis-ci.org/impak-finance/django-js-urls.svg?branch=master
-    :target: https://travis-ci.org/impak-finance/django-js-urls
+.. .. image:: https://travis-ci.org/impak-finance/django-js-urls.svg?branch=master
+..     :target: https://travis-ci.org/impak-finance/django-js-urls
 
-.. image:: https://codecov.io/gh/impak-finance/django-js-urls/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/impak-finance/django-js-urls
+.. .. image:: https://codecov.io/gh/impak-finance/django-js-urls/branch/master/graph/badge.svg
+..   :target: https://codecov.io/gh/impak-finance/django-js-urls
 
-|
+.. |
 
-**Django-js-urls** is a lightweight Django application allowing to easily get absolute path
+**Django4-js-urls** is a lightweight Django application allowing to easily get absolute path
 references matching given URL names and optional parameters on the client side - just like
 `reverse <https://docs.djangoproject.com/en/dev/ref/urlresolvers/#reverse>`_ does, but in a
 Javascript fashion.
@@ -36,11 +36,11 @@ Python 3.8+, Django 3.2+.
 Installation
 ============
 
-To install Django-js-urls, please use pip_ (or pipenv_) as follows:
+To install Django4-js-urls, please use pip_ (or pipenv_) as follows:
 
 .. code-block:: shell
 
-    $ pip install django-js-urls
+    $ pip install django4-js-urls
 
 Once installed you just need to add ``js_urls`` to ``INSTALLED_APPS`` in your project's settings
 module:
@@ -76,7 +76,7 @@ module:
 
     urlpatterns = [
         # other urls
-        url(r'^js-urls/$', JsUrlsView.as_view(), name='js_urls'),
+        url('js-urls/$', JsUrlsView.as_view(), name='js_urls'),
     ]
 
 And finally you can include the Javascript script in your base template as follows:
